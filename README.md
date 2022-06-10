@@ -21,7 +21,7 @@ check with these commands.
  -> describe users;
  -> describe products;  // to see the products table
  // now our Table is created
-
+# For Users API
  Go to Postman
  -> when we send get request to this host http://localhost:2678/api/users we see an empty array bcoz now no users are present save this reQuest in our collection.
  -> Now send Post request to the same link only,with name kumar inside it in **body section** .Now an object is created with name,id inside that object and save it.
@@ -30,7 +30,7 @@ check with these commands.
  This says you have two users now i.e kumar and neha.
  -> Make a similar thing with products.
 
- # Now for Products :
+ # Now for Products API :
    -> Go to Postman
    -> Start the server
    -> Send the get request to http://localhost:2678/api/products and got result as empty array which means not data is being added in the post request and no data is present for the product.
@@ -40,6 +40,7 @@ check with these commands.
    -> If you now you send the get request you will see all the products that are added by post request.
    -> We are now able to add Products and retrieve Products, Similarly able to add users and retrieve users.
 
+<<<<<<< HEAD
 Now We Start Building our Frontend as our Backend part is done completely i.e Backend has a database, it can save users and can save Products, it can fetch those values and can add new values using postman tool.
 
 # Frontend 
@@ -50,3 +51,16 @@ Now We Start Building our Frontend as our Backend part is done completely i.e Ba
  -> Same For padding and spacing seach in the Bootstrap website.You will get it.
  -> Now We'll connect the HTML file in public folder with JQuery Script that actually fetch the data from the backend and show it.
  -> The Website or Backend will work if starts from server i.e server.js.
+ -> Add the JQuery and Bootstrap four links in the html file in public folder.
+
+Now We Start Building our Frontend as our Backend part is done completely i.e Backend has a database, it can save users and can save Products, it can fetch those values and can add new values using postman tool. 
+
+# Create a new Page to add Products
+ -> add_products -> Add the Bootstrap and JQuery links in the new html file.
+ -> Changed files as :
+    shop_frontend.js to index.js
+    make new file named as shop.js, include these files in the html file in public.
+
+# How to Use ?
+-> To add the product you have to go to localhost:2678/add_products.html
+-> To see the changes in the Product list can be seen on the server directly. 

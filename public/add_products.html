@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="jquery-3.6.0.js"></script>
+        <script src="shop.js"></script>
+        <script src="add_products.js"></script>
+</head>
+<body>
+    <!-- We have to create Forms by bootstrap -->
+    <div class="p-4">
+        <h3 class="text-center">Add Product</h3> 
+        <!-- To have center the above line -->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col - 6">
+                <form>
+                    <div class="form-group" class="p-6">
+                        <label for="productName">Product Name</label>
+                        <input type="text" id="productName">
+                    </div>
+                    <div class="form-group">
+                        <label for="productManufacturer">Manufacturer</label>
+                        <input type="text" id="productManufacturer">
+                    </div>
+                    <div class="form-group">
+                        <label for="productManufacturer">Price</label>
+                        <input type="number" id="productPrice">
+                    </div>
+                </form>
+                <button class="btn btn-secondary" id="btnProductAdd">Add</button>
+            </div>
+            <div class="col"></div>
+            
+        </div>
+       
+    </div>
+
+</body>
+</html>
