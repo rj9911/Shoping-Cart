@@ -1,3 +1,4 @@
+<!-- Add Bootstrap Four Links i.e cdn 2 links, Popper and jQuery -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="shop_frontend.js"></script>
+    <script></script>
          
 </head>
 <body>
-    <h1>Hello</h1>
+    
+   <!-- Show the products that are available in my shop  -->
+    <div class="container">
+        <div class="row">
+            <div class="row"></div>
+            <h1 >SHOP</h1>
+            <div class="row"></div>
+        </div>
+        <div class="row" id="product-list">
+      /*    <!-- Fake Data -->
+          <div class="col-4 card mx-2 p-4"> 
+              <!-- Card and Spacing -->
+            <h2 class="product-name">Pixel-2</h2>
+            <div class="product-manufacturer">Google</div>
+            <div class="row">
+                <div class="col m-3 p-3">
+                    <!-- m for margin and p for padding -->
+                   <b>Rs. 65,000</b>
+                </div> 
+                  <!-- Add a Buy Button -->
+                    <!-- For Spacing required is col-6 -->
+            <button class="col btn btn-primary m-3 p-1">Buy</button> 
+            <!-- Primary means Blue Color -->
+            <!-- <button class="btn btn-default">Buy</button> default means but button no color --> 
+        </div>
+    </div>
+          <div class="col-4 card mx-2 p-2">
+            Pixel 2 XL
+          </div>
+        </div>
+
+    </div>
 </body>
 </html>

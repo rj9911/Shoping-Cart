@@ -40,4 +40,13 @@ check with these commands.
    -> If you now you send the get request you will see all the products that are added by post request.
    -> We are now able to add Products and retrieve Products, Similarly able to add users and retrieve users.
 
-Now We Start Building our Frontend as our Backend part is done completely i.e Backend has a database, it can save users and can save Products, it can fetch those values and can add new values using postman tool. 
+Now We Start Building our Frontend as our Backend part is done completely i.e Backend has a database, it can save users and can save Products, it can fetch those values and can add new values using postman tool.
+
+# Frontend 
+ -> Using Bootstrap Framework as CSS
+    include both scripts i.e JS and CSS cdn links and also add jQuery and Popper links in public i.e html. Put jQuery and popper links before JS and CSS links.
+ -> First will create the collection of fake product data then using our backened gives out the correct data.
+ -> Created the card class inside each Product using Bootstrap for that Go that Bootstrap Website and search for card you will get it.\
+ -> Same For padding and spacing seach in the Bootstrap website.You will get it.
+ -> Now We'll connect the HTML file in public folder with JQuery Script that actually fetch the data from the backend and show it.
+ -> The Website or Backend will work if starts from server i.e server.js.
