@@ -21,7 +21,7 @@ check with these commands.
  -> describe users;
  -> describe products;  // to see the products table
  // now our Table is created
-
+# For Users API
  Go to Postman
  -> when we send get request to this host http://localhost:2678/api/users we see an empty array bcoz now no users are present save this reQuest in our collection.
  -> Now send Post request to the same link only,with name kumar inside it in **body section** .Now an object is created with name,id inside that object and save it.
@@ -30,7 +30,7 @@ check with these commands.
  This says you have two users now i.e kumar and neha.
  -> Make a similar thing with products.
 
- # Now for Products :
+ # Now for Products API :
    -> Go to Postman
    -> Start the server
    -> Send the get request to http://localhost:2678/api/products and got result as empty array which means not data is being added in the post request and no data is present for the product.
