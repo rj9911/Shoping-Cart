@@ -29,3 +29,15 @@ check with these commands.
  -> Now if you again sent a get request you see the all enteries while doing get request.
  This says you have two users now i.e kumar and neha.
  -> Make a similar thing with products.
+
+ # Now for Products :
+   -> Go to Postman
+   -> Start the server
+   -> Send the get request to http://localhost:2678/api/products and got result as empty array which means not data is being added in the post request and no data is present for the product.
+   -> if you see in the O/P of the terminal you see the SQL Query is been written there ,which happens by Product.findAll() SQl Query is written automatically by SeQuelize(SeQuelize runs this command for me).
+   -> Add some Products details by post request by adding name & manufacturer,price and send the post request,you will see all the data in the object with id as autoincrement.
+   -> If I pass price value as Rs. 65000 then gives a message that price is not valid as it should be float.
+   -> If you now you send the get request you will see all the products that are added by post request.
+   -> We are now able to add Products and retrieve Products, Similarly able to add users and retrieve users.
+
+Now We Start Building our Frontend as our Backend part is done completely i.e Backend has a database, it can save users and can save Products, it can fetch those values and can add new values using postman tool. 
